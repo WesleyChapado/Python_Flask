@@ -1,3 +1,6 @@
+# lembrar de instalar o flask ex: 'pip3 install flask==0.12.2'
+# lembrar de instalar o bootstrap
+
 from flask import Flask, render_template, request, redirect, session, flash, url_for
 
 app = Flask(__name__)
